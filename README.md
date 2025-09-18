@@ -1,6 +1,6 @@
-# C-SmartFlow 智能一体 Agent 助手
+# Smart 智能一体 Agent 助手
 
-C-SmartFlow 是一个结合企业内部多系统和多功能智能体 (Agent) 的统一入口。系统基于 FastAPI 提供 Web/API 访问, 使用 LangChain 协调 LLM (默认支持 LLaMA/Ollama 与 OpenAI), 并通过 Model Context Protocol (MCP) 访问日程、工时、权限和差旅系统。
+Smart 是一个结合企业内部多系统和多功能智能体 (Agent) 的统一入口。系统基于 FastAPI 提供 Web/API 访问, 使用 LangChain 协调 LLM (默认支持 LLaMA/Ollama 与 OpenAI), 并通过 Model Context Protocol (MCP) 访问日程、工时、权限和差旅系统。
 
 该示例聚焦于 Agent 协调层和 MCP 调用的工程实现, 便于在本地快速运行与二次开发。生产环境可在此基础上接入真实的 MCP 服务、企业身份认证和审计链路。
 
@@ -13,7 +13,7 @@ C-SmartFlow 是一个结合企业内部多系统和多功能智能体 (Agent) �
                     │ FastAPI (REST/WebSocket)
                     ▼
 ┌────────────────────────────────────────┐
-│        C-SmartFlow Agent Orchestrator │
+│        Smart Agent Orchestrator │
 │  • LangChain Planner + LLM (LLaMA/OpenAI)│
 │  • 工具注册中心 + MCP 调用封装             │
 └────────────────────────────────────────┘

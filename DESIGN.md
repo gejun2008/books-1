@@ -1,4 +1,4 @@
-# C-SmartFlow Agent + MCP 设计说明
+# Smart Agent + MCP 设计说明
 
 ## 目标
 
